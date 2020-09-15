@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>MooonCam Videographer</title>
+         <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+         <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li><a href="https://www.instagram.com/mooon_cam/" target="_blank"  uk-icon="icon: instagram; ratio: 2"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCmjrMjQcpqjWiHS8-VLFAUw" target="_blank"  uk-icon="icon: youtube; ratio: 2"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="uk-flex uk-flex-middle uk-flex-column">
+            <div class="uk-card uk-card-default uk-card-body uk-width-3-5@m">        
+                <div class="uk-position-relative" uk-slideshow="ratio: 16:9; autoplay: true; autoplay-interval: 2500; pause-on-hover: true; animation: fade">
+
+                    <ul class="uk-slideshow-items">
+                       <li>
+                           <img src="media/mers1.jpg" uk-cover>
+                       </li>
+                       <li>
+                           <img src="media/mers2.jpg" uk-cover>
+                        </li>
+                       <li>
+                           <img src="media/mers3.jpg" uk-cover>
+                       </li>
+                    </ul>
+           
+                   <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                   <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+           
+                   <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+               </div>
+            </div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <div class="uk-child-width-auto@m uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <iframe width="350" height="200" src="https://www.youtube.com/embed/OS48kUe7_GA"
+                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <iframe width="350" height="200" src="https://www.youtube.com/embed/yz0ZOiHtEDI"
+                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+
+    </body>
+</html>
