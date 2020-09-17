@@ -186,3 +186,17 @@ section video{
         font-size: 2em;
     }
 }
+
+@media (max-width: 400px){
+    .text h2{
+        font-size: 2em;
+    }
+
+    .text h3{
+        font-size: 1em;
+    }
+
+    .text p{
+        font-size: 0.8em;
+    }
+}
